@@ -52,7 +52,7 @@ const HeroSection = () => {
           {/* Stats row */}
           <div className="flex flex-wrap gap-8">
             <div>
-              <p className="text-brand-gold font-bold text-2xl">40+</p>
+              <p className="text-brand-gold font-bold text-2xl">100+</p>
               <p className="text-brand-muted text-sm">Cars</p>
             </div>
             <div>

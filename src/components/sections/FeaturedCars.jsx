@@ -3,7 +3,8 @@ import { cars } from "../../data/cars";
 import CarCard from "../ui/CarCard";
 import SectionHeading from "../ui/SectionHeading";
 
-const featuredCars = cars.slice(0, 6);
+const FEATURED_IDS = [1, 11, 36, 59, 98, 101]; // Budget · Standard · Premium · SUV · MPV · Luxury
+const featuredCars = cars.filter((c) => FEATURED_IDS.includes(c.id));
 
 const FeaturedCars = () => {
   return (

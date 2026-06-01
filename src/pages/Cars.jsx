@@ -48,7 +48,7 @@ const Cars = () => {
             Our Fleet
           </h1>
           <p className="text-brand-muted text-base md:text-lg max-w-xl mx-auto">
-            40+ well-maintained cars available for self-drive in Sahibabad,
+            100+ well-maintained cars available for self-drive in Sahibabad,
             Ghaziabad
           </p>
         </div>
@@ -58,7 +58,7 @@ const Cars = () => {
       <section className="bg-[#0a0a0a] py-8 border-b border-zinc-800">
         <div className="max-w-5xl mx-auto px-4 flex flex-wrap justify-center gap-8">
           {[
-            { value: "40+", label: "Cars Available" },
+            { value: "100+", label: "Cars Available" },
             { value: "₹79/hr", label: "Starting Price" },
             { value: "24/7", label: "Support" },
             { value: "100%", label: "Transparent" },
@@ -106,6 +106,9 @@ const Cars = () => {
             <option value="Budget">Budget</option>
             <option value="Standard">Standard</option>
             <option value="Premium">Premium</option>
+            <option value="SUV">SUV</option>
+            <option value="MPV">MPV</option>
+            <option value="Luxury">Luxury</option>
           </select>
 
           {/* Car count */}

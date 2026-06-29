@@ -22,7 +22,10 @@ export default function Navbar() {
 
   // Close mobile menu on route change
   useEffect(() => {
-    setMenuOpen(false);
+    const timer = setTimeout(() => {
+      setMenuOpen(false);
+    }, 0);
+    return () => clearTimeout(timer);
   }, [location.pathname]);
 
   const activeLinkClass = ({ isActive }) =>

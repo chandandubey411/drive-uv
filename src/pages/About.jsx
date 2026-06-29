@@ -93,6 +93,23 @@ const About = () => {
         </div>
       </section>
 
+      {/* Intro Video */}
+      <section className="pb-20 bg-[#0a0a0a]">
+        <div className="max-w-5xl mx-auto px-4">
+          <div className="relative rounded-2xl overflow-hidden shadow-card border border-zinc-800 bg-zinc-950 p-2">
+            <video
+              src="https://0lhw85i87r.ufs.sh/f/HMiUwEFgMn3U37pz2iOcAMxFChRVSI4sKT6Gw1QEby0gLDqW"
+              autoPlay
+              muted
+              loop
+              playsInline
+              controls
+              className="w-full rounded-xl object-cover aspect-video"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* Why Choose Us */}
       <WhyChooseUs />
 
